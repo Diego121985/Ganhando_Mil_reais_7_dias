@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100vh;
+  position: fixed;
+
+
+}
+
+.mario {
+  height: 200px;
+
+
+
+
+
+}
+
+.luide {
+  height: 400px;
+  
+
+
+
+}
+
+button {
+  color: white;
+  background-color: #c51111;
+  border-radius: 3px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+
+
+
+}
+
+.caixa1 {
+  width: 40%;
+
+
+
+
+}
+
+.caixa-video {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+
+
+}
+
+video {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+
+.caixa-mae {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px;
+  height: 100vh;
+
+
+
+
+
+}
+
+.mascara-formulario {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(109deg, rgb(43, 14, 3) 0%, rgba(14, 1, 2, 0.589) 49%, rgb(0, 9, 10) 100%);
+  transition: left 1s ease-in-out;
+
+
+}
+
+
+.wtsapp {
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+
+}
+
+.header img {
+  height: 60px;
+  margin-top: 5px;
+  padding-left: 20px;
+
+}
+
+.header a {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0px;
+
+}
+
+.header a:hover {
+  color: black;
+  font-size: 26px;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: black;
+  height: 60px;
+  width: 210px;
+
+}
+
+.formulario-fala-conosco {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  left: -400px;
+  top: 30%;
+  position: fixed;
+  padding: 20px;
+  gap: 28px;
+  border-radius: 10px;
+  transition: left 1s ease-in-out;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid green;
+  padding-left: 20px;
+  outline-color: red;
+}
+
+textarea {
+  height: 100px;
+  width: 270px;
+  border-radius: 8px;
+  border: 1px solid green;
+  padding-left: 20px;
+  outline-color: red;
+}
+
+@media(max-width:500px) {
+  p {
+    display: none;
+  }
+  .caixa-mae{
+    flex-direction: column;
+    padding: 10px;
+    height: 50px;
+  }
+  .caixa1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+ 
+  }
+  .luide{
+    width: 70vw;
+    height: auto;
+  }
+  .mario{
+    height: 150px;
+  }
+  .header a{
+    font-size: 15px;
+    
+  }
+  .wtsapp{
+    margin-bottom: 305px;
+    
+  } 
+  .header img{
+    width: 40px;
+    height: auto;
+
+  }
+}
