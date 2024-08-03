@@ -174,40 +174,60 @@ textarea {
   outline-color: red;
 }
 
-@media(max-width:500px) {
+
+@media(max-width:600px) {
   p {
     display: none;
   }
-  .caixa-mae{
+
+  .caixa-mae {
     flex-direction: column;
     padding: 10px;
     height: 50px;
   }
-  .caixa1{
+
+  .caixa1 {
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 250px;
- 
-  }
-  .luide{
-    width: 70vw;
-    height: auto;
-  }
-  .mario{
-    height: 150px;
-  }
-  .header a{
-    font-size: 15px;
-    
-  }
-  .wtsapp{
-    margin-bottom: 305px;
-    
-  } 
-  .header img{
-    width: 40px;
-    height: auto;
 
   }
+
+  .luide {
+    width: 40vw;
+    height: auto;
+    padding-top: 450px;
+    padding-right: 50px;
+    margin-right: 150px;
+  }
+
+  .mario {
+    height: 150px;
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .header a {
+    font-size: 15px;
+
+  }
+
+  .wtsapp {
+    margin-bottom: 05px;
+
+  }
+
+  .header img {
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+
+  }
+  .caixa-video{
+    position:absolute;
+    top: 0;
+  }
+
+
 }
